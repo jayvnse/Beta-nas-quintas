@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão JS</title>
+    <style>
+        body{
+            background-color: rgb(68, 163, 104);
+        } /* unica forma de escrever comentário em CSS */
+    </style>
+</head>
+<body>
+    <h1>TÍTULO 1</h1> <!-- comentário em HTML -->
+    <script>
+
+        // comentário em um unica linha
+
+        /* 
+        comentario
+        em
+        multiplas
+        linhas
+         */
+
+        //PRIMEIRO EXERCÍCIO JS: CRIAR ELEMENTO OU OBJETOS JS NA MINHA TELA.
+
+        // window.alert('Escreva isso na caixa de alerta')
+        // window.confirm('Você está acompanhando essa revisão?')
+        // window.prompt('Escreva seu nome:')
+
+        //AINDA PRIMEIRO EXERCICIO, COMO GRAVAR
+        
+        var nome = window.prompt('Escreva seu nome:')
+        window.alert(nome)
+        var confirmacao = window.confirm('Você está acompanhando essa revisão?')
+        if (confirmacao == true){
+            window.alert('Você clicou em OK')
+        } else {
+            window.alert('Você clicou em Cancel')
+        }
+        
+    </script>
+</body>
+</html>

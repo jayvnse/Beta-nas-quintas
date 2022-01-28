@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão JS</title>
+    <style>
+        body{
+            background-color: rgb(68, 163, 104);
+        }
+    </style>
+</head>
+<body>
+    <h1>TÍTULO 1</h1> 
+    <script>
+
+        //Operadoresw em JS
+        
+        !false = true
+        !true = false 
+
+        true && true = true
+        true && false = false
+        false && true = false
+        false && false = false
+
+        true || true = true
+        true || false = true
+        false || true = true
+        false || false = false
+
+        var num1 = 5
+        var num2 = 2
+
+        num1 > num2 = true
+        num2 > num1 = false
+
+        num1 < num2 = false
+        num2 < num1 = true
+
+        var num3 = 16
+        var num4 = 22
+
+        num3 >= num4 = false
+        num4 >= num3 = true
+ 
+        var num6 = 'vinte e dois'
+
+        num5 == num6 = true
+        num6 == num5 = true
+
+        num5 != num6 = false
+        num6 != num5 = false
+
+        var num7 = 22
+        var num8 = '22'
+
+        num7 === num8 = false
+        num8 === num7 = false
+
+        // prioridade dos operadores
+
+        var conta = (4 + 32 - (2 ** 4) + (5 / 3))
+        /*          4 + 32 - 16 + (5 / 3)
+                    4 + 32 - 16 + 1.66
+                    36 - 16 + 1.66
+                    20 + 1.66
+                    21.66
+        */
+
+        var conta2 = ((4 + 32) - 2 ** 4 + 5 / 3)
+    </script>
+</body>
+</html>
